@@ -7,7 +7,7 @@
 ![image](https://github.com/kishore7403/KubeFlow/assets/48860055/86036277-314a-415b-9b80-0b46a206766d)
 
 
-This project demonstrates the creation of a cloud-native application on Google Cloud Platform (GCP) using containerization, CI/CD pipelines, and Google Kubernetes Engine (GKE). The application consists of two microservices that interact with each other, providing file storage and product calculation capabilities.
+This project demonstrates the creation of a cloud-native application on the Google Cloud Platform (GCP) using containerization, CI/CD pipelines, and Google Kubernetes Engine (GKE). The application consists of two microservices that interact with each other, providing file storage and product calculation capabilities.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -48,13 +48,13 @@ The goal of this project is to build a cloud-native application on GCP with the 
 
 - A GKE cluster is created using Terraform with specific configurations to save costs:
   - Single node.
-  - Container-Optimized OS with containerd.
+  - Container-Optimized OS with containers.
   - E2 series, e2-micro machine type.
   - Standard persistent disk.
 
 ## Persistent Volume (PV)
 
-- A persistent volume is attached to the GKE cluster and mounted at `/[Your_First_Name]_PV_dir`.
+- A persistent volume is attached to the GKE cluster and mounted at `/Kisgoreganesh_PV_dir`.
 
 ## API Endpoints
 
